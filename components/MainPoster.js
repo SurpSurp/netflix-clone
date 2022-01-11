@@ -25,7 +25,7 @@ const MainPoster = ({ url, alt, genresArr }) => {
           <AiOutlinePlus className=" text-2xl" />
           <h3 className="text-xs">내가 찜한 콘텐츠</h3>
         </div>
-        <div className="flex items-center bg-white px-4 h-8 gap-x-2 -ml-8">
+        <div className="flex items-center bg-white px-4 h-8 gap-x-2 -ml-8 rounded-sm">
           <GrPlayFill className=" text-xl" />
           <h3 className="text-sm font-medium tracking-wider">재생</h3>
         </div>

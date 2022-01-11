@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       minWidth: {
         "poster-card": "40%",
+        "top-rate-poster-card": "55%",
       },
     },
   },
