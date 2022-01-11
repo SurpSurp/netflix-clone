@@ -6,11 +6,11 @@ module.exports = {
     return [
       {
         source: "/api/movies/popular",
-        destination: `https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}&language=en-US&page=1`,
+        destination: `https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}&language=eko&page=1`,
       },
       {
         source: "/api/movies/upcoming",
-        destination: `https://api.themoviedb.org/3/movie/upcoming?api_key=${API_KEY}&language=en-US&page=1`,
+        destination: `https://api.themoviedb.org/3/movie/upcoming?api_key=${API_KEY}&language=ko&page=1`,
       },
     ];
   },
